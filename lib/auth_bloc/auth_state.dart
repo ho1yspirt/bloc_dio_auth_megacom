@@ -1,0 +1,17 @@
+part of 'auth_bloc.dart';
+
+@immutable
+abstract class AuthState {}
+
+class AuthInitial extends AuthState {}
+
+class AuthLoading extends AuthState {}
+
+class AuthSuccess extends AuthState {
+  final AuthModel model;
+  AuthSuccess({
+    required this.model,
+  });
+}
+
+class AuthError extends AuthState {}
