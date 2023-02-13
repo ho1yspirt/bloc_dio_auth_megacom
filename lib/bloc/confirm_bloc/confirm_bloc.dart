@@ -1,3 +1,4 @@
+// ignore_for_file: depend_on_referenced_packages, unused_import
 import 'package:bloc/bloc.dart';
 import 'package:bloc_final/models/send_code_model.dart';
 import 'package:bloc_final/repositories/confirm_code_repo.dart';

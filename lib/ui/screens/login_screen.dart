@@ -1,4 +1,4 @@
-import 'package:bloc_final/auth_bloc/auth_bloc.dart';
+import 'package:bloc_final/bloc/auth_bloc/auth_bloc.dart';
 import 'package:bloc_final/ui/colors/app_colors.dart';
 import 'package:bloc_final/ui/fonts/app_fonts.dart';
 import 'package:bloc_final/ui/screens/auth_screen.dart';

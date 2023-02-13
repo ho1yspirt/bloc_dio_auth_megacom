@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import
+
 import 'dart:convert';
 import 'package:bloc_final/models/auth_model.dart';
 import 'package:bloc_final/models/send_code_model.dart';
@@ -29,7 +31,6 @@ class ConfirmCodeRepo {
       ),
     );
     final result = SendCodeModel.fromJson(response.data);
-    print("$code ${prefs.getString('token')}");
     return result;
   }
 }
