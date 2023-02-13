@@ -1,5 +1,4 @@
-import 'package:bloc_final/confirm_bloc/confirm_bloc.dart';
-import 'package:bloc_final/models/send_code_model.dart';
+import 'package:bloc_final/bloc/confirm_bloc/confirm_bloc.dart';
 import 'package:bloc_final/ui/colors/app_colors.dart';
 import 'package:bloc_final/ui/fonts/app_fonts.dart';
 import 'package:bloc_final/ui/widgets/custom_button.dart';

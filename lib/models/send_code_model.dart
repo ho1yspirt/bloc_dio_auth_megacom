@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_collection_literals, unnecessary_this
+
 class SendCodeModel {
   int? status;
   String? message;

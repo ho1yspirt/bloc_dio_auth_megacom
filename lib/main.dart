@@ -1,5 +1,6 @@
-import 'package:bloc_final/auth_bloc/auth_bloc.dart';
-import 'package:bloc_final/confirm_bloc/confirm_bloc.dart';
+import 'package:bloc_final/bloc/auth_bloc/auth_bloc.dart';
+import 'package:bloc_final/bloc/confirm_bloc/confirm_bloc.dart';
+import 'package:bloc_final/bloc/validation_bloc/validation_bloc.dart';
 import 'package:bloc_final/dio/dio_settings.dart';
 import 'package:bloc_final/repositories/auth_repo.dart';
 import 'package:bloc_final/repositories/confirm_code_repo.dart';
@@ -41,6 +42,9 @@ class MyApp extends StatelessWidget {
               create: (context) => ConfirmBloc(
                 repo: RepositoryProvider.of<ConfirmCodeRepo>(context),
               ),
+            ),
+            BlocProvider(
+              create: (context) => ValidationBloc(),
             ),
           ],
           child: const MaterialApp(
