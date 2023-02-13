@@ -1,6 +1,6 @@
 # bloc_final
 
-A new Flutter project.
+Bloc + Dio + Megacom API = Auth example
 
 ## Getting Started
 
